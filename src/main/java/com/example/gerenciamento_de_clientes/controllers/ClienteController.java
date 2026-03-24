@@ -16,7 +16,7 @@ import java.util.Optional;
 public class ClienteController {
 
     @Autowired
-    ClienteService clienteService;
+    private ClienteService clienteService;
 
     @GetMapping
     public ResponseEntity<List<ClienteModel>> findAll(){
